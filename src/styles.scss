@@ -1,0 +1,64 @@
+@import "../node_modules/bootstrap/scss/functions";
+@import "../node_modules/bootstrap/scss/variables";
+@import "../node_modules/bootstrap/scss/variables-dark";
+
+
+
+ // Create your own map
+$custom-colors: (
+  "danger":     $red-400,
+  "warning":    $orange-400,
+  "success":    $teal-400,
+  "info":       $blue-400,
+  "primary":    $cyan,
+  "cian-500":   $cyan-400,
+  "black":      $black,
+  "white":      $white,
+  "secondary":  $gray-400,
+  "dark":       $gray-800,
+  "light":      $cyan-300,
+  "textdark":  $gray-600,
+  "cyandark":  $cyan-600
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+
+$btn-border-radius: .25rem;
+$btn-font-weight: 500;
+$btn-font-size: .875rem;
+$nav-link-font-size: .875rem;
+$btn-padding-x: 2rem;
+$btn-padding-y: .75rem;
+$navbar-nav-link-padding-x: 2rem;
+$nav-link-padding-y: .75rem;
+$nav-link-font-weight: 500;
+$font-weight-base: 200;
+$line-height-base: 1.5;
+$pagination-border-width: 0;
+$link-color: hsl(198, 100%, 34%);
+$link-hover-color: hsl(198, 100%, 34%);
+$link-hover-color: hsl(198, 100%, 34%);
+$pagination-active-bg: hsl(198, 100%, 34%);
+$link-decoration: none;
+$card-border-color: hsl(210, 17%, 98%);
+$input-font-size: .875rem;
+$input-font-weight: 500;
+$form-feedback-font-size: .75rem;
+
+@import "node_modules/bootstrap/scss/bootstrap";
+
+body {
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+
+
+  @media (max-width: 768px) {
+    padding-top: 3.9375rem;
+  }
+}
+
+.text-extra-small {
+  font-size: .75rem;
+}
