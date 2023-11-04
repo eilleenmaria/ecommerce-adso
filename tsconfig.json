@@ -28,6 +28,9 @@
       "@core/*":["src/app/core/*"],
       "@data/*":["src/app/data/*"],
       "@layout/*":["src/app/layout/*"],
+      "@layout/header":["src/app/layout/header/*"],
+      "@layout/footer":["src/app/layout/footer/*"],
+
       "@modules/*":["src/app/modules/*"],
       "@home/*":["src/app/modules/home/*"],
       "@auth/*":["src/app/modules/auth/*"],

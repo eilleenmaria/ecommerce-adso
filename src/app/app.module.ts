@@ -5,10 +5,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 import { AppComponent } from './app.component';
-import { SkeletonComponent } from './layout/skeleton/skeleton.component';
-import { FooterComponent } from './layout/footer/footer.component';
-import { HeaderComponent } from './layout/header/header.component';
-import { CoreModule } from 'src/app/core/core.module';
+import { SkeletonComponent } from '@layout/skeleton/skeleton.component';
+import { FooterComponent } from '@layout/footer/footer.component';
+import { HeaderComponent } from '@layout/header/header.component';
+import { CoreModule } from '@core/core.module';
 import { AppRoutingModule } from 'src/app/app-routing.module';
 
 @NgModule({
